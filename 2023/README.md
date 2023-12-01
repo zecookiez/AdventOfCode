@@ -12,7 +12,7 @@ I'm doing co-op on the west coast this year, so my sleep isn't ruined! I'll try 
 
 | Day | Name                               | Part 1 | Part 2 | Points        | Runtime (ms) |
 | --- | :--------------------------------- |:------ |:------ | :------------ | :----------- |
-
+| 1   | Trebuchet?!                        | 257th  | 637th  | 0             | xxx          |
 
 __Score:__ 0 points
 
