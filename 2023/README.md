@@ -14,9 +14,10 @@ I'm doing co-op on the west coast this year, so my sleep isn't ruined! I'll try 
 | --- | :--------------------------------- |:------ |:------ | :------------ | :----------- |
 | 1   | Trebuchet?!                        | 257th  | 637th  | 0             | xxx          |
 | 2   | Cube Conundrum                     | 331st  | 218th  | 0             | xxx          |
+| 3   | Gear Ratios                        | 20th   | 8th    | 81 + 93 = 174 | xxx          |
 
-__Score:__ 0 points
+__Score:__ 174 points
 
-__Rank:__ N/A
+__Rank:__ 45th
 
 __Total runtime:__ 0 milliseconds
