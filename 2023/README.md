@@ -16,9 +16,10 @@ I'm doing co-op on the west coast this year, so my sleep isn't ruined! I'll try 
 | 2   | Cube Conundrum                     | 331st  | 218th  | 0             | xxx          |
 | 3   | Gear Ratios                        | 20th   | 8th    | 81 + 93 = 174 | xxx          |
 | 4   | Scratchcards                       | 1115th | 480th  | 0             | xxx          |
+| 5   | If You Give A Seed A Fertilizer    | 1060th | 160th  | 0             | xxx          |
 
 __Score:__ 174 points
 
-__Rank:__ 62nd
+__Rank:__ 87th
 
 __Total runtime:__ 0 milliseconds
