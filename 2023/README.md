@@ -19,10 +19,11 @@ I'm doing co-op on the west coast this year, so my sleep isn't ruined! I'll try 
 | 5   | If You Give A Seed A Fertilizer    | 1060th | 160th  | 0             | xxx          |
 | 6   | Wait for It                        | 189th  | 379th  | 0             | xxx          |
 | 7   | Camel Cards                        | 17th   | 59th   | 84 + 42 = 126 | xxx          |
+| 8   | Haunted Wasteland                  | 139th  | 53rd   | 48            | xxx          |
 
 
-__Score:__ 300 points
+__Score:__ 348 points
 
-__Rank:__ 60th
+__Rank:__ 57th
 
 __Total runtime:__ 0 milliseconds
