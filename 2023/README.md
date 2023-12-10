@@ -21,9 +21,10 @@ I'm doing co-op on the west coast this year, so my sleep isn't ruined! I'll try 
 | 7   | Camel Cards                        | 17th   | 59th   | 84 + 42 = 126 | xxx          |
 | 8   | Haunted Wasteland                  | 139th  | 53rd   | 48            | xxx          |
 | 9   | Mirage Maintenance                 | 74th   | 99th   | 27 + 2 = 29   | xxx          |
+| 10  | Pipe Maze                          | 135th  | 493rd  | 0             | xxx          |
 
 __Score:__ 377 points
 
-__Rank:__ 59th
+__Rank:__ 68th
 
 __Total runtime:__ 0 milliseconds
