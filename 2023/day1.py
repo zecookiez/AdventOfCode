@@ -1,5 +1,5 @@
 
-file = open("input.txt", "r")
+file = open("inputs/day1.txt", "r")
 input = [i.strip() for i in file.readlines()]
 
 # Starting off strong with the ugliest code for a day 1

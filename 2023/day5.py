@@ -1,10 +1,10 @@
 import re
-from collection import defaultdict
+from collections import defaultdict
 
 def get_int(line):
     return list(map(int, re.findall(r"\d+", line)))
 
-file = open("input.txt", "r")
+file = open("inputs/day5.txt", "r")
 input = file.read().strip().split("\n\n")
 
 part1 = float("inf")

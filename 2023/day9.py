@@ -1,7 +1,11 @@
 from math import lcm
+import re
 
-file = open("input.txt", "r")
+file = open("inputs/day9.txt", "r")
 input = [i.strip() for i in file.readlines()]
+
+def gi(line):
+    return list(map(int, re.findall(r"-?\d+", line)))
 
 part1 = 0
 part2 = 0

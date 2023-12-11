@@ -22,9 +22,11 @@ I'm doing co-op on the west coast this year, so my sleep isn't ruined! I'll try 
 | 8   | Haunted Wasteland                  | 139th  | 53rd   | 48            | xxx          |
 | 9   | Mirage Maintenance                 | 74th   | 99th   | 27 + 2 = 29   | xxx          |
 | 10  | Pipe Maze                          | 135th  | 493rd  | 0             | xxx          |
+| 11  | Cosmic Expansion                   | 170th  | 76th   | 25            | xxx          |
 
-__Score:__ 377 points
 
-__Rank:__ 68th
+__Score:__ 402 points
+
+__Rank:__ 67th
 
 __Total runtime:__ 0 milliseconds

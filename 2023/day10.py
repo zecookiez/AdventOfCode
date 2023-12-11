@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-file = open("input.txt", "r")
+file = open("inputs/day10.txt", "r")
 grid = [i.strip() for i in file.readlines()]
 
 H = len(grid)

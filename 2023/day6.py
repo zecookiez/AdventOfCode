@@ -4,7 +4,7 @@ from math import ceil
 def get_int(line):
     return list(map(int, re.findall(r"\d+", line)))
 
-file = open("input.txt", "r")
+file = open("inputs/day6.txt", "r")
 times, dist = [i.strip() for i in file.readlines()]
 
 def solve(times, distances):
@@ -29,7 +29,7 @@ def solve(times, distances):
 print(solve(times, dist))
 
 # Part 2
-print(solve(times.replace(" ", "")), dist.replace(" ", ""))
+print(solve(times.replace(" ", ""), dist.replace(" ", "")))
 
 
 """

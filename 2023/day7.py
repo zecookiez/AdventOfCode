@@ -1,6 +1,7 @@
 from itertools import combinations_with_replacement
+from collections import Counter
 
-file = open("input.txt", "r")
+file = open("inputs/day7.txt", "r")
 input = [i.strip() for i in file.readlines()]
 
 def solve_part1(H):

@@ -1,6 +1,7 @@
 from math import lcm
+from collections import defaultdict
 
-file = open("input.txt", "r")
+file = open("inputs/day8.txt", "r")
 input = file.read().strip().split("\n\n")
 
 inst, nodes = input

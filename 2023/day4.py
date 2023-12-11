@@ -3,7 +3,7 @@ import re
 def get_int(line):
     return list(map(int, re.findall(r"\d+", line)))
 
-file = open("input.txt", "r")
+file = open("inputs/day4.txt", "r")
 input = [i.strip() for i in file.readlines()]
 
 part1 = 0

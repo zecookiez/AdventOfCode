@@ -4,7 +4,7 @@ from collections import defaultdict
 def GI(line):
     return int(re.findall(r"\d+", line)[0])
 
-file = open("input.txt", "r")
+file = open("inputs/day2.txt", "r")
 input = [i.strip() for i in file.readlines()]
 
 part1 = 0

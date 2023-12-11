@@ -1,7 +1,12 @@
 from collections import defaultdict
 
-file = open("input.txt", "r")
+file = open("inputs/day3.txt", "r")
 grid = [i.strip() for i in file.readlines()]
+
+def neigh8(x, y, H, W):
+    for nx, ny in (x-1,y-1),(x-1,y),(x-1,y+1),(x,y-1),(x,y+1),(x+1,y-1),(x+1,y),(x+1,y+1):
+        if 0 <= nx < H and 0 <= ny < W:
+            yield (nx, ny)
 
 part1 = 0
 part2 = 0
