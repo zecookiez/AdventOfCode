@@ -23,10 +23,10 @@ I'm doing co-op on the west coast this year, so my sleep isn't ruined! I'll try 
 | 9   | Mirage Maintenance                 | 74th   | 99th   | 27 + 2 = 29   | xxx          |
 | 10  | Pipe Maze                          | 135th  | 493rd  | 0             | xxx          |
 | 11  | Cosmic Expansion                   | 170th  | 76th   | 25            | xxx          |
-
+| 12  | Hot Springs                        | 901st  | 101st  | 0             | xxx          |
 
 __Score:__ 402 points
 
-__Rank:__ 67th
+__Rank:__ 77th
 
 __Total runtime:__ 0 milliseconds
