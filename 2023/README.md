@@ -24,9 +24,10 @@ I'm doing co-op on the west coast this year, so my sleep isn't ruined! I'll try 
 | 10  | Pipe Maze                          | 135th  | 493rd  | 0             | xxx          |
 | 11  | Cosmic Expansion                   | 170th  | 76th   | 25            | xxx          |
 | 12  | Hot Springs                        | 901st  | 101st  | 0             | xxx          |
+| 13  | Point of Incidence                 | 97th   | 38th   | 4 + 63 = 67   | xxx          |
 
-__Score:__ 402 points
+__Score:__ 469 points
 
-__Rank:__ 77th
+__Rank:__ 68th
 
 __Total runtime:__ 0 milliseconds
