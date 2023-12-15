@@ -26,9 +26,10 @@ I'm doing co-op on the west coast this year, so my sleep isn't ruined! I'll try 
 | 12  | Hot Springs                        | 901st  | 101st  | 0             | xxx          |
 | 13  | Point of Incidence                 | 97th   | 38th   | 4 + 63 = 67   | xxx          |
 | 14  | Parabolic Reflector Dish           | 134th  | 58th   | 43            | xxx          |
+| 15  | Lens Library                       | 519th  | 315h   | 0             | xxx          |
 
 __Score:__ 512 points
 
-__Rank:__ 66th
+__Rank:__ 73rd
 
 __Total runtime:__ 0 milliseconds
