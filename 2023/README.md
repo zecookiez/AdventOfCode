@@ -12,24 +12,25 @@ I'm doing co-op on the west coast this year, so my sleep isn't ruined! I'll try 
 
 | Day | Name                               | Part 1 | Part 2 | Points        | Runtime (ms) |
 | --- | :--------------------------------- |:------ |:------ | :------------ | :----------- |
-| 1   | Trebuchet?!                        | 257th  | 637th  | 0             | xxx          |
-| 2   | Cube Conundrum                     | 331st  | 218th  | 0             | xxx          |
-| 3   | Gear Ratios                        | 20th   | 8th    | 81 + 93 = 174 | xxx          |
-| 4   | Scratchcards                       | 1115th | 480th  | 0             | xxx          |
-| 5   | If You Give A Seed A Fertilizer    | 1060th | 160th  | 0             | xxx          |
-| 6   | Wait for It                        | 189th  | 379th  | 0             | xxx          |
-| 7   | Camel Cards                        | 17th   | 59th   | 84 + 42 = 126 | xxx          |
-| 8   | Haunted Wasteland                  | 139th  | 53rd   | 48            | xxx          |
-| 9   | Mirage Maintenance                 | 74th   | 99th   | 27 + 2 = 29   | xxx          |
-| 10  | Pipe Maze                          | 135th  | 493rd  | 0             | xxx          |
-| 11  | Cosmic Expansion                   | 170th  | 76th   | 25            | xxx          |
-| 12  | Hot Springs                        | 901st  | 101st  | 0             | xxx          |
-| 13  | Point of Incidence                 | 97th   | 38th   | 4 + 63 = 67   | xxx          |
-| 14  | Parabolic Reflector Dish           | 134th  | 58th   | 43            | xxx          |
-| 15  | Lens Library                       | 519th  | 315h   | 0             | xxx          |
+| 1   | Trebuchet?!                        | 257th  | 637th  | 0             | 24           |
+| 2   | Cube Conundrum                     | 331st  | 218th  | 0             | 3            |
+| 3   | Gear Ratios                        | 20th   | 8th    | 81 + 93 = 174 | 9            |
+| 4   | Scratchcards                       | 1115th | 480th  | 0             | 3            |
+| 5   | If You Give A Seed A Fertilizer    | 1060th | 160th  | 0             | 6            |
+| 6   | Wait for It                        | 189th  | 379th  | 0             | <1           |
+| 7   | Camel Cards                        | 17th   | 59th   | 84 + 42 = 126 | 17           |
+| 8   | Haunted Wasteland                  | 139th  | 53rd   | 48            | 24           |
+| 9   | Mirage Maintenance                 | 74th   | 99th   | 27 + 2 = 29   | 5            |
+| 10  | Pipe Maze                          | 135th  | 493rd  | 0             | 67           |
+| 11  | Cosmic Expansion                   | 170th  | 76th   | 25            | 101          |
+| 12  | Hot Springs                        | 901st  | 101st  | 0             | 417          |
+| 13  | Point of Incidence                 | 97th   | 38th   | 4 + 63 = 67   | 11           |
+| 14  | Parabolic Reflector Dish           | 134th  | 58th   | 43            | 933          |
+| 15  | Lens Library                       | 519th  | 315th  | 0             | 6            |
+| 16  | The Floor Will Be Lava             | 110th  | 80th   | 21            | 1100         |
 
-__Score:__ 512 points
+__Score:__ 533 points
 
-__Rank:__ 73rd
+__Rank:__ 76th
 
-__Total runtime:__ 0 milliseconds
+__Total runtime:__ 2727 milliseconds
