@@ -28,9 +28,10 @@ I'm doing co-op on the west coast this year, so my sleep isn't ruined! I'll try 
 | 14  | Parabolic Reflector Dish           | 134th  | 58th   | 43            | 933          |
 | 15  | Lens Library                       | 519th  | 315th  | 0             | 6            |
 | 16  | The Floor Will Be Lava             | 110th  | 80th   | 21            | 1100         |
+| 17  | Clumsy Crucible                    | 84th   | 43rd   | 17 + 58       | xxx          |
 
-__Score:__ 533 points
+__Score:__ 609 points
 
-__Rank:__ 76th
+__Rank:__ 75th
 
-__Total runtime:__ 2727 milliseconds
+__Total runtime:__ 2727 milliseconds (as of day 16)
