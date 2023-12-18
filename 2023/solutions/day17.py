@@ -24,6 +24,8 @@ def main(ROOT = ".."):
 
         while queue:
             d, x, y, dx, dy, sz = heappop(queue)
+            if x == H - 1 and y == W - 1 and min_turn <= sz <= max_length:
+                return d
             if (x, y, dx, dy, sz) in dist and dist[x, y, dx, dy, sz] < d:
                 continue
             moves = [((dx, dy), sz + 1)]
@@ -34,9 +36,6 @@ def main(ROOT = ".."):
                 ny = ndy + y
                 if 0 <= nx < H and 0 <= ny < W:
                     add(d + grid[nx][ny], nx, ny, ndx, ndy, nsz)
-
-        return min(val for key, val in dist.items()
-                   if key[:2] == (H - 1, W - 1) and min_turn <= key[-1] <= max_length)
 
     return solve(0, 3), solve(4, 10)
 
