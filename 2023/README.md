@@ -30,10 +30,11 @@ I'm doing co-op on the west coast this year, so my sleep isn't ruined! I'll try 
 | 16  | The Floor Will Be Lava             | 110th  | 80th   | 21            | 1100         |
 | 17  | Clumsy Crucible                    | 84th   | 43rd   | 17 + 58 = 75  | 2286         |
 | 18  | Lavaduct Lagoon                    | 18th   | 82nd   | 83 + 19 = 102 | 2            |
-| 19  | Aplenty                            | 77th   | 44th   | 24 + 57 = 81  | 25           |
+| 19  | Aplenty                            | 77th   | 44th   | 24 + 57 = 81  | 16           |
+| 20  | Pulse Propagation                  | 226th  | 735th  | 0             | 280          |
 
 __Score:__ 791 points
 
-__Rank:__ 57th
+__Rank:__ 62nd
 
-__Total runtime:__ 5040 milliseconds (as of day 19)
+__Total runtime:__ 5311 milliseconds (as of day 20)
