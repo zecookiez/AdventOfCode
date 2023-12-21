@@ -32,9 +32,10 @@ I'm doing co-op on the west coast this year, so my sleep isn't ruined! I'll try 
 | 18  | Lavaduct Lagoon                    | 18th   | 82nd   | 83 + 19 = 102 | 2            |
 | 19  | Aplenty                            | 77th   | 44th   | 24 + 57 = 81  | 16           |
 | 20  | Pulse Propagation                  | 226th  | 735th  | 0             | 280          |
+| 21  | Step Counter                       | 41st   | 509th  | 60            | xxx          |
 
-__Score:__ 791 points
+__Score:__ 851 points
 
-__Rank:__ 62nd
+__Rank:__ 63rd
 
 __Total runtime:__ 5311 milliseconds (as of day 20)
