@@ -33,10 +33,11 @@ I'm doing co-op on the west coast this year, so my sleep isn't ruined! I'll try 
 | 19  | Aplenty                            | 77th   | 44th   | 24 + 57 = 81  | 16           |
 | 20  | Pulse Propagation                  | 226th  | 735th  | 0             | 280          |
 | 21  | Step Counter                       | 41st   | 509th  | 60            | xxx          |
-| 22  | Sand Slabs                         | 284th  | 320th  | 0             | < 5000       |
+| 22  | Sand Slabs                         | 284th  | 320th  | 0             | 3564         |
+| 23  | A Long Walk                        | 17th   | 688th  | 84            | 645          |
 
-__Score:__ 851 points
+__Score:__ 935 points
 
-__Rank:__ 67th
+__Rank:__ 59th
 
-__Total runtime:__ 5311 milliseconds (as of day 20)
+__Total runtime:__ 9520 milliseconds (as of day 23, excluding day 21)
