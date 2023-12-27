@@ -7,14 +7,12 @@ def main(ROOT = ".."):
 
     def solve(min_turn, max_length):
         queue = [(0, 0, 0, 0, 1, 0), (0, 0, 0, 1, 0, 0)]
-        dist = {}
+        dist = {tuple(i[1:]): 0 for i in queue}
 
         def add(nd, nx, ny, dx, dy, sz):
             label = nx, ny, dx, dy, sz
-            if label in dist and dist[label] <= nd:
-                return
-            if sz > max_length:
-                return
+            if sz > max_length: return
+            if label in dist and dist[label] <= nd: return
             dist[label] = nd
             heappush(queue, (nd, nx, ny, dx, dy, sz))
             return
@@ -26,16 +24,15 @@ def main(ROOT = ".."):
             d, x, y, dx, dy, sz = heappop(queue)
             if x == H - 1 and y == W - 1 and min_turn <= sz <= max_length:
                 return d
-            if (x, y, dx, dy, sz) in dist and dist[x, y, dx, dy, sz] < d:
-                continue
-            moves = [((dx, dy), sz + 1)]
-            if sz >= min_turn:
-                moves.extend([(left(dx, dy), 1), (right(dx, dy), 1)])
-            for (ndx, ndy), nsz in moves:
-                nx = ndx + x
-                ny = ndy + y
-                if 0 <= nx < H and 0 <= ny < W:
-                    add(d + grid[nx][ny], nx, ny, ndx, ndy, nsz)
+            if dist[x, y, dx, dy, sz] == d:
+                moves = [((dx, dy), sz + 1)]
+                if sz >= min_turn:
+                    moves.extend([(left(dx, dy), 1), (right(dx, dy), 1)])
+                for (ndx, ndy), nsz in moves:
+                    nx = ndx + x
+                    ny = ndy + y
+                    if 0 <= nx < H and 0 <= ny < W:
+                        add(d + grid[nx][ny], nx, ny, ndx, ndy, nsz)
 
     return solve(0, 3), solve(4, 10)
 

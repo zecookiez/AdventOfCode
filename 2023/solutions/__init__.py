@@ -1,2 +1,2 @@
 
-__all__ = [f"day{id}" for id in range(1, 24)]
+__all__ = [f"day{id}" for id in range(1, 26)]
