@@ -33,7 +33,7 @@ I'm doing an internship on the west coast this year, so my sleep isn't ruined! I
 | 19  | Aplenty                            | 77th   | 44th   | 24 + 57 = 81  | 14           |
 | 20  | Pulse Propagation                  | 226th  | 735th  | 0             | 193          |
 | 21  | Step Counter                       | 41st   | 509th  | 60            | 85           |
-| 22  | Sand Slabs                         | 284th  | 320th  | 0             | 3383         |
+| 22  | Sand Slabs                         | 284th  | 320th  | 0             | 574          |
 | 23  | A Long Walk                        | 17th   | 688th  | 84            | 605          |
 | 24  | Never Tell Me The Odds             | 86th   | 209th  | 15            | 365          |
 | 25  | Snowverload                        | 791st  | 685th  | 0             | 33           |
@@ -42,7 +42,7 @@ __Score:__ 950 points
 
 __Rank:__ 64th
 
-__Total runtime:__ 9290 milliseconds
+__Total runtime:__ 6481 milliseconds
 
 ## Calendar Art
 

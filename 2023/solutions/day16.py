@@ -1,4 +1,4 @@
-from collections import deque
+from collections import deque, defaultdict
 
 def main(ROOT = ".."):
     file = open(ROOT + "/inputs/day16.txt", "r")
@@ -15,36 +15,52 @@ def main(ROOT = ".."):
         (1, 0, "/"): (0, -1),
         (-1, 0, "/"): (0, 1)
     }
+    edge_hit = set()
     def solve(queue):
-        seen = set(queue)
+        seen = defaultdict(set)
+        for x, y, dx, dy in queue:
+            seen[x, y].add((dx, dy))
+            # Don't solve for this if you had a previous run that made an edge hit that landed here (can be avoided in most cases)
+            if (x, y, -dx, -dy) in edge_hit:
+                return 0
         queue = deque(queue)
+        quick_travel = {}
         while queue:
             x, y, dx, dy = queue.popleft()
             # Move until we hit a special tile (sort of faster)
-            while W > y >= 0 <= x < H and grid[x][y] == ".":
-                seen.add((x, y, dx, dy))
-                x += dx
-                y += dy
+            if (x, y, dx, dy) in quick_travel:
+                x, y = quick_travel[x, y, dx, dy]
+            else:
+                og = x, y
+                moved = False
+                while W > y >= 0 <= x < H and grid[x][y] == ".":
+                    seen[x, y].add((dx, dy))
+                    x += dx
+                    y += dy
+                    moved = True
+                if moved:
+                    quick_travel[x - dx, y - dy, -dx, -dy] = og
             if not W > y >= 0 <= x < H:
+                edge_hit.add((x - dx, y - dy, dx, dy))
                 continue
             ch = grid[x][y]
-            seen.add((x, y, dx, dy))
+            seen[x, y].add((dx, dy))
             if (dy and ch == "|") or (dx and ch == "-"):
                 for ndx, ndy in ([(0, 1), (0, -1)] if dx else [(1, 0), (-1, 0)]):
                     nx = x + ndx
                     ny = y + ndy
-                    if W > ny >= 0 <= nx < H and (nx, ny, ndx, ndy) not in seen:
-                        seen.add((nx, ny, ndx, ndy))
+                    if W > ny >= 0 <= nx < H and (ndx, ndy) not in seen[nx, ny]:
+                        seen[nx, ny].add((ndx, ndy))
                         queue.append((nx, ny, ndx, ndy))
             else:
                 if (dx, dy, ch) in directions:
                     dx, dy = directions[dx, dy, ch]
                 x += dx
                 y += dy
-                if W > y >= 0 <= x < H and (x, y, dx, dy) not in seen:
-                    seen.add((x, y, dx, dy))
+                if W > y >= 0 <= x < H and (dx, dy) not in seen[x, y]:
+                    seen[x, y].add((dx, dy))
                     queue.append((x, y, dx, dy))
-        return len({(x, y) for x, y, a, b in seen})
+        return len(seen)
 
     part2 = 0
     for col in range(W):

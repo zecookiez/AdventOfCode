@@ -41,29 +41,28 @@ def main(ROOT = ".."):
         for ind in queue:
             in_queue.remove(ind)
             az, bz = bricks[ind]
-            moved = False
-            while az > 1:
-                if any(max(az - 1, bricks[item][0]) <= min(bz - 1, bricks[item][1]) for item in neighbors[ind]):
-                    break
-                az -= 1
-                bz -= 1
-                moved = True
-            if moved:
+            min_delta = az - 1
+            for item in neighbors[ind]:
+                L, R = bricks[item]
+                if L > bz: continue
+                delta = az - R - 1
+                min_delta = min(min_delta, delta)
+            if min_delta > 0:
                 for nx in neighbors[ind]:
                     if nx not in in_queue:
                         in_queue.add(nx)
                         queue.append(nx)
-                bricks[ind] = az, bz
+                bricks[ind] = az - min_delta, bz - min_delta
         return bricks
-
     # Preprocess pairs of bricks that share x and y axis
-    neighbors = [
-        [i2 for i2, b2 in enumerate(bricks) if i1 != i2 and align_xy(b1, b2)] for i1, b1 in enumerate(bricks)
-    ]
-
+    neighbors = [[] for _ in bricks]
+    for i1, b1 in enumerate(bricks):
+        for i2 in range(i1):
+            if align_xy(b1, bricks[i2]):
+                neighbors[i1].append(i2)
+                neighbors[i2].append(i1)
     # Fall bricks completely
     bricks = fall([(a[2], b[2]) for a, b in bricks])
-
     # Find which bricks sit next to each other
     connected = [
         [i2 for i2 in neighbors[i1] if inter(az, bz, bricks[i2][0] - 1, bricks[i2][1] - 1)] for i1, (az, bz) in
@@ -93,7 +92,6 @@ def main(ROOT = ".."):
         # No brick moved
         if len(moved) == 1:
             part1 += 1
-
     return part1, part2
 
 if __name__ == "__main__":
